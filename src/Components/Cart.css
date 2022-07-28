@@ -1,0 +1,17 @@
+.cart__checkout {
+    position: absolute;
+    box-shadow: 0 1px 0px #5e5d5b;
+    top: 651%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255 255 255);
+    padding: 10px;
+  
+    /* z-index: 1000; */
+    /* border: 3px solid black; */
+    /* border-radius: 25px; */
+    width: 1499px;
+    height: 641px;
+    overflow-y: scroll;
+  }
+  

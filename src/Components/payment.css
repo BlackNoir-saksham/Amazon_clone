@@ -1,0 +1,85 @@
+.payment {
+    background-color: white;
+    min-height: calc(100vh - 27px);
+}
+
+.payment__container > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+  }
+
+.payment__container > h1 a {
+    text-decoration: none;
+}
+
+.payment__section {
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment__title {
+    flex: 0.2;
+}
+
+.payment__address, .payment__items, .payment__details {
+    flex: 0.8;
+}
+  
+.payment__details > form {
+    max-width: 400px;
+  }
+
+  .payment__details > h3 {
+    padding-bottom: 20px;
+  }
+
+
+  
+
+  .payment__btn{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 4%;
+    height: 28px;
+    border: 1px solid;
+    /* margin-top: 10px; */
+    border-color: #f0c14b;
+    color: black;
+  }
+
+  .payment__btn__div{
+    padding: 20px 0px 20px 21px;
+  }
+
+  .payment__buynow{
+    background: #d40d0d;
+    border-radius: 2px;
+    width: 61%;
+    height: 28px;
+    border: 1px solid;
+    margin-top: 12px;
+    border-color: #ca0808;
+    color: black;
+  }
+
+  .footer{
+    
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(115, 111, 111);
+    /* margin-top: 10px; */
+  }
+
+  .payment__priceContainer{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 180px;
+    padding: 16px 30px 16px 30px;
+    text-align: center;
+  }
+  
